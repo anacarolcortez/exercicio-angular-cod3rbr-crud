@@ -9,3 +9,15 @@ table {
     max-width: 100%;
     overflow: auto;  
 }
+
+.edit {
+    margin-right: 5px;
+}
+
+.edit > i {
+    color: #D9CD26;
+}
+
+.delete > i {
+    color: #e35e6b;
+}

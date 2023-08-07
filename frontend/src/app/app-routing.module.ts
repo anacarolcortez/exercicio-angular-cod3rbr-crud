@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './views/home/home.component';
 import { CrudProdutosComponent } from './views/crud-produtos/crud-produtos.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,10 @@ const routes: Routes = [
   {
     path:"loja/cadastro",
     component: ProductCreateComponent
+  },
+  {
+    path:"loja/atualizar/:id",
+    component: ProductUpdateComponent
   }
 ];
 
