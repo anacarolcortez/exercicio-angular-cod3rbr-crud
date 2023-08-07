@@ -29,7 +29,6 @@ import { MatSortModule } from '@angular/material/sort';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
