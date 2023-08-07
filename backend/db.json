@@ -31,19 +31,14 @@
       "price": 16.5
     },
     {
-      "id": 7,
-      "name": "Lapiseira BIC 0.7 3 unidades",
-      "price": 17.89
+      "name": "Lapiseira BIC 0.7",
+      "price": "9.69",
+      "id": 7
     },
     {
-      "id": 8,
-      "name": "Borracha Office Basics branca",
-      "price": 4.99
-    },
-    {
-      "name": "Caixa de Papelão 20x40x60",
-      "price": "26.90",
-      "id": 9
+      "name": "Corretivo Líquido LiquidPaper 22ml",
+      "price": "16.20",
+      "id": 8
     }
   ]
 }
