@@ -1,4 +1,4 @@
-<mat-card>
+<mat-card class="novoProduto">
     <mat-card-title>Novo Produto</mat-card-title>
     <form>
         <mat-form-field>
@@ -12,11 +12,14 @@
                 [(ngModel)]="product.price" name="price">
         </mat-form-field>
     </form>
-    <button mat-raised-button (click)="createProduct()" color="primary">
-        Salvar
-    </button>
-    
-    <button mat-raised-button (click)="cancel()">
-        Cancelar
-    </button>
+
+
+    <div class="botoes">
+        <button mat-raised-button (click)="createProduct()" color="primary">
+            Salvar
+        </button>
+        <button mat-raised-button (click)="cancel()">
+            Cancelar
+        </button>
+    </div>
 </mat-card>
